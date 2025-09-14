@@ -1,6 +1,6 @@
 services:
   web-server:
-    build: ./src
+    build: ./
     ports:
       - 8000:8000
     volumes:
